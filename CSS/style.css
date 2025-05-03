@@ -81,7 +81,7 @@ width : 40 px ;
 {
     height: 50%;
     width: 100%;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -92,7 +92,7 @@ width : 40 px ;
 {
     height: 50%;
     width: 100%;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -115,11 +115,11 @@ width : 40 px ;
 
 #right_content
 {
-    border: 2px solid white;
+    /* border: 2px solid white; */
     height: 100%;
     width: 50%;
     justify-content: center;
-    /* align-items: center; */
+  
    
 }
 
