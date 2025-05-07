@@ -52,7 +52,7 @@ justify-content: space-around;
 cursor: pointer;
 }
 
-a{
+.navanchor{
 height : 40px ;
 width : 40 px ;
     color: #C1C4E1;
@@ -143,7 +143,7 @@ margin-left: 50px;
 .icon_box{
 height: 30%;
 width: 60%;
-border: 2px solid white;
+/* border: 2px solid white; */
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -151,10 +151,23 @@ justify-content: center;
 gap: 20px;
 overflow: hidden; /* 👈 This removes scrollbars */
 flex-wrap: wrap;   /* 👈 Ensures icons wrap instead of overflowing */
+margin-right: 300px;
 } 
 
 
+#iconboxes{
+    /* border: 1px solid white; */
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
 
+.anchor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
 /* ========================(main > main_content_2nd )================================ */
 .main_content_2nd{
     border-top: 2px solid black;
