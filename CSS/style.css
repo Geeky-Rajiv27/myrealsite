@@ -143,7 +143,7 @@ margin-left: 50px;
 .icon_box{
 height: 30%;
 width: 60%;
-/* border: 2px solid white; */
+border: 2px solid white;
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -151,15 +151,21 @@ justify-content: center;
 gap: 20px;
 overflow: hidden; /* 👈 This removes scrollbars */
 flex-wrap: wrap;   /* 👈 Ensures icons wrap instead of overflowing */
-margin-right: 300px;
+/* margin-right: 300px; */
 } 
 
 
 #iconboxes{
-    /* border: 1px solid white; */
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
+    border: 1px solid white;
+    height: 60%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 5px; */
+   overflow: hidden;
+   box-sizing: border-box;
+    /* border-radius: 50%; */
 }
 
 .anchor{
@@ -167,6 +173,10 @@ margin-right: 300px;
     justify-content: center;
     align-items: center;
     /* text-align: center; */
+}
+.i{
+margin: 0;
+padding: 0;
 }
 /* ========================(main > main_content_2nd )================================ */
 .main_content_2nd{
