@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>.RAJIV</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    
     <link rel="stylesheet" href="../CSS/media.css" />
     <link rel="stylesheet" href="../CSS/style.css">
   </head>
   <body>
+    <script src="./Javascript/ALL_alert's.js"></script>
     <!-- to create wahtsapp  API
     wa.me/+9779864554325
     
@@ -46,20 +47,20 @@
 
           <div id="upper_left_content">
             <h1 class="first_line">WELCOME</h1>
-            <pre class="intro">Rajiv Chaudhary - Aspiring Game Developer &
-               Tech Enthusiast</pre>fa-3x
+            <pre class="intro">Rajiv Chaudhary - Aspiring Game Developer &</pre>
+             <pre class = "intro"> Tech Enthusiast</pre>
     
           </div>
 
           <div id="lower_left_content">
            <div class="icon_box">
-           <div id="iconboxes">  <a class="anchor" href="https://github.com/Geeky-Rajiv27">
-            <i class="fa-brands fa-square-github fa-3x" style="color: #26c54d;"></i></a></div>
-           <div id="iconboxes"> <a class="anchor" href="https://www.linkedin.com/in/rajiv-chaudhary-137814327/">
+             <div id="iconboxes">  <a target="_blank" rel="noopener noreferrer" class="anchor" href="https://github.com/Geeky-Rajiv27">
+             <i class="fa-brands fa-square-github fa-3x" style="color: #26c54d;"></i></a></div>
+           <div id="iconboxes"> <a target="_blank" rel="noopener noreferrer" class="anchor" href="https://www.linkedin.com/in/rajiv-chaudhary-137814327/">
             <i class="fa-brands fa-linkedin fa-3x" style="color: #74C0FC;"></i></a></div>
-           <div id="iconboxes">  <a class="anchor" href="https://www.instagram.com/ig.blackninjaofficial14/">
+           <div id="iconboxes">  <a target="_blank" rel="noopener noreferrer" class="anchor" href="https://www.instagram.com/ig.blackninjaofficial14/">
             <i class="fa-brands fa-instagram fa-3x" style="color: #aa2787;"></i></a></div>
-           <div id="iconboxes">   <a class="anchor" href="https://www.facebook.com/rajeev.chaudhary.31508076"><i class="fa-brands fa-square-facebook fa-3x" style="color: #74C0FC;"></i></a></div>
+           <div id="iconboxes">   <a target="_blank" rel="noopener noreferrer" class="anchor" href="https://www.facebook.com/rajeev.chaudhary.31508076"><i class="fa-brands fa-square-facebook fa-3x" style="color: #74C0FC;"></i></a></div>
           </div> 
           </div>
           </div>
@@ -96,7 +97,7 @@ user-friendly websites and aim to sharpen my skills as I progress in my studies.
             Email &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;: vijarchy@gmail.com
           </div>
           <div class="botton_detail">
-            <button id="download_cv">Download CV</button>
+            <button onclick="alertDownload()" id="download_cv">Download CV</button>
           </div>
         </div>
       </div>
@@ -143,10 +144,10 @@ techniques to make your projects stand out.</pre>
         <div id="my_portfolio">
           <h3 id="title_portfolio">MY PORTFOLIO</h3>
           <div id="portfolio_tabs" class="tabs">
-            <button id="tabs_3" class="tabs">SKILL</button>
-            <button id="tabs_1" class="tabs">PROJECTS</button>
-            <button id="tabs_2" class="tabs">EXPERIENCE</button>
-            <button id="tabs_4" class="tabs">OTHERS</button>
+            <a id="tabs_1" class="tabs" target="_blank" rel="noopener noreferrer" href="https://geeky-rajiv27.github.io/Project_Apple.com/">PROJECTS</a>
+            <a id="tabs_2" class="tabs" target="_blank" rel="noopener noreferrer" href="">EXPERIENCE</a>
+            <a id="tabs_3" class="tabs" target="_blank" rel="noopener noreferrer" href="">SKILL</a>
+            <a id="tabs_4" class="tabs" target="_blank" rel="noopener noreferrer" href="">OTHERS</a>
           </div>
         </div>
         <div id="img_group">
@@ -160,19 +161,19 @@ techniques to make your projects stand out.</pre>
       </div>
       <!--------------------( 6th main )------------------------>
       <div class="main_content_6th">
-        <div id="chuncks_1" class="chuncks">
+        <div onclick="alertExp()" id="chuncks_1" class="chuncks">
           <div id="title">9 Yrs +</div>
           <div id="title_content">Experiences</div>
         </div>
-        <div id="chuncks_2" class="chuncks">
+        <div onclick="alertProjects()" id="chuncks_2" class="chuncks">
           <div id="title">200 ++</div>
           <div id="title_content">Projects</div>
         </div>
-        <div id="chuncks_3" class="chuncks">
+        <div onclick="alertHack()" id="chuncks_3" class="chuncks">
           <div id="title">10 ++</div>
           <div id="title_content">Hackathon Awards</div>
         </div>
-        <div id="chuncks_4" class="chuncks">
+        <div onclick="alertCompany_work()" id="chuncks_4" class="chuncks">
           <div id="title">2</div>
           <div id="title_content">Companies worked with</div>
         </div>
